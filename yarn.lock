@@ -2877,7 +2877,7 @@
   dependencies:
     "@nx/workspace" "19.8.3"
 
-"@nx/angular@19.8.3":
+"@nx/angular@19.8.3", "@nx/angular@^19.0.0":
   version "19.8.3"
   resolved "https://registry.yarnpkg.com/@nx/angular/-/angular-19.8.3.tgz#86a7b63780596551d2559081e5c7c67beb2a6c4f"
   integrity sha512-f1C55hupx+Pe+U8aGEag0jxaH2ChyUMeteo+fWU7qc9aaCvVjC6nIxDjB48sqbh9NyuXRZfv5Ze9ve6T1VgUQg==
@@ -2902,7 +2902,7 @@
     webpack "^5.88.0"
     webpack-merge "^5.8.0"
 
-"@nx/devkit@19.8.3":
+"@nx/devkit@19.8.3", "@nx/devkit@^19.0.0":
   version "19.8.3"
   resolved "https://registry.yarnpkg.com/@nx/devkit/-/devkit-19.8.3.tgz#706ae65d95b83589174276ee888acf7a1b53af69"
   integrity sha512-uX50CAM11tzhwswf0ftN0QfzW2FM3M4Mf/pD/nRRnmsTkcPTdMXVu4LHuLVTp4CMsaO+cOQlqgHXujHYfOIctg==
@@ -2969,7 +2969,7 @@
     tslib "^2.3.0"
     yargs-parser "21.1.1"
 
-"@nx/js@19.8.3":
+"@nx/js@19.8.3", "@nx/js@^19.0.0":
   version "19.8.3"
   resolved "https://registry.yarnpkg.com/@nx/js/-/js-19.8.3.tgz#a325e0518ccc3e279e1ff6a6de40954f1c27c283"
   integrity sha512-hugBafx0jwMa8ebs20XINCkhjvPNz+wW4qgSo4TtmPXu9NLZ/yVSM8nwOfdnZn1D4UOHu7LaYCBwp09Hrf2F9Q==
@@ -3163,6 +3163,27 @@
     nx "19.8.3"
     tslib "^2.3.0"
     yargs-parser "21.1.1"
+
+"@nxext/capacitor@^19.1.0":
+  version "19.1.0"
+  resolved "https://registry.yarnpkg.com/@nxext/capacitor/-/capacitor-19.1.0.tgz#75d29a15aa208ea93fae2e952817dc91ac5d0eb2"
+  integrity sha512-x9r3o82+VkpLnEIYx6NCHbgAcHyiSFhP/JgHwvlnlkYYgvKlIFZyATNijUrqbryZczzZe6nsxjLvsiFKXUM3nQ==
+  dependencies:
+    "@nx/devkit" "^19.0.0"
+    ignore "^5.3.1"
+    nx "^19.0.0"
+    tslib "^2.3.0"
+
+"@nxext/ionic-angular@^19.1.0":
+  version "19.1.0"
+  resolved "https://registry.yarnpkg.com/@nxext/ionic-angular/-/ionic-angular-19.1.0.tgz#c929acf63b3d03a0c1867b24edd1d2139297a41d"
+  integrity sha512-pfAD62gz/BXna5EQ2wHQRXVFXsHb1vAUa0ygyuQMhU8ZU6DvlQCwocL5vz2ifMMi0VD4rpjK03Xy9gTH7EE14w==
+  dependencies:
+    "@nx/angular" "^19.0.0"
+    "@nx/devkit" "^19.0.0"
+    "@nx/js" "^19.0.0"
+    "@nxext/capacitor" "^19.1.0"
+    tslib "^2.3.0"
 
 "@phenomnomnominal/tsquery@~5.0.1":
   version "5.0.1"
@@ -8683,7 +8704,7 @@ nwsapi@^2.2.2:
   resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.13.tgz#e56b4e98960e7a040e5474536587e599c4ff4655"
   integrity sha512-cTGB9ptp9dY9A5VbMSe7fQBcl/tt22Vcqdq8+eN93rblOuE0aCFu4aZ2vMwct/2t+lFnosm8RkQW1I0Omb1UtQ==
 
-nx@19.8.3:
+nx@19.8.3, nx@^19.0.0:
   version "19.8.3"
   resolved "https://registry.yarnpkg.com/nx/-/nx-19.8.3.tgz#4ba06036ff2d963884eaba1c11a91e9e1062555c"
   integrity sha512-/3FF4tgwPGRu4bV6O+aHqhTnOGHKF0/HNVkApUwjimSC+YzOX9VH1uBx2eReb4XC1scxDWkIzVi9gkFSXSQDjQ==
